@@ -60,9 +60,14 @@ This repository contains two Python files (`scraper.py` and `utils.py`) that par
 ## Usage
 
 1. **Clone this repo** or copy both Python files (`utils.py` and `scraper.py`) into the same folder.
-2. **Obtain your Ed Discussion JSON** and name it `cpsc323_ed_fall24.json` (or modify `DATA_FILE_NAME` in `scraper.py` to the correct path).
+2. **Obtain your Ed Discussion JSON** and name it `cpsc323_ed_fall24.json` or modify `DATA_FILE_NAME` in `scraper.py` to the correct file path.
 3. **Install Requirements**  
    The code only uses standard Python libraries (`json`, `csv`, `collections`), so no extra installations needed.
 4. **Run**  
    ```bash
    python3 scraper.py
+
+## Note
+- To ensure the privacy of students and staff, the input (i.e. the serialized Ed course data) and output data files (the generated CSV) have been omitted from this repository.
+- For access to the serialized Ed course data, please contact an EdStem admin of the course. This is usually a professor(s) or Teaching Fellow. 
+- Please contact `ananya.purushottam@yale.edu` / `ananyapurushottam979@gmail.com` with any questions! 
