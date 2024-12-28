@@ -169,3 +169,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignoring all input data files since those may contain sensitive student information.
+*.json
+
+# Ignoring all generated csv files from being pushed to the repo
+*.csv
