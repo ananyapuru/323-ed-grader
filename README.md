@@ -67,7 +67,11 @@ This repository contains two Python files (`scraper.py` and `utils.py`) that par
    ```bash
    python3 scraper.py
 
-## Note
+## Note about Input + Output Files
 - To ensure the privacy of students and staff, the input (i.e. the serialized Ed course data) and output data files (the generated CSV) have been omitted from this repository.
 - For access to the serialized Ed course data, please contact an EdStem admin of the course. This is usually a professor(s) or Teaching Fellow. 
-- Please contact `ananya.purushottam@yale.edu` / `ananyapurushottam979@gmail.com` with any questions! 
+- Feel free to fork and modify this script as needed!
+
+## Contact
+- This script and README was created by Ananya Purushottam (that's me!).
+- Please feel free to contact `ananya.purushottam@yale.edu` / `ananyapurushottam979@gmail.com` with any questions! 
